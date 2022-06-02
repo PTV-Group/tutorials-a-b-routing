@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html>
+    <head><title>A-B Routing</title>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+        <link rel="stylesheet" href="./style.css" />
+        <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js">
+        </script>
+        <script src="https://developer.myptv.com/Applications/common/jquery.min.js">
+        </script>
+        <script src="https://developer.myptv.com/Applications/common/converTime.js">
+        </script>
+        <script src="https://developer.myptv.com/Applications/common/convertDistance.js">
+        </script>
+        <script src="./headerTileLayer.js">
+        </script>
+        <script src="./A_B_Routing.js">
+        </script>
+    </head>
+    <body>
+        <h2>A-B Routing</h2>
+        
+        <div id="controls">
+            <input id="startFormId" type="text" size="25" placeholder="Enter start address" autocomplete="off" />
+            <input id="destinationFormId" type="text" size="25" placeholder="Enter destination address" autocomplete="off" />
+            <button type="button" id="btnSubmit" class="calc-btn">Calculate Route</button>
+        </div>
+        <p>Travel Time: <span id="travelResult"></span></p>
+        <div style="width: 100%; height: 600px;" id="map"></div>
+
+        
+    </body>
+</html>

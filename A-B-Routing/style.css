@@ -1,0 +1,25 @@
+body,
+html {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  font-size: 1vw !important;
+  line-height: 1.5vw !important;
+}
+
+.calc-btn {
+  background-color: rgb(81, 83, 92);
+  font-weight: normal;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  padding: 2px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+}
