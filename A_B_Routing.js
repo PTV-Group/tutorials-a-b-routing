@@ -15,7 +15,7 @@
     }
 
     function geocodeAdress(searchText, action) {
-        // Define the parameters needed for the REST query. See https://developer.myptv.com/Documentation/Geocoding%20API/API%20Reference.htm
+        // Define the parameters needed for the REST query.
         fetch(`https://api.myptv.com/geocoding/v1/locations/by-text?searchText=${searchText}`,
             {
                 method: "GET",
